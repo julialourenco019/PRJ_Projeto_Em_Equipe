@@ -1,0 +1,60 @@
+git clone <url>
+git branch
+git remote add origin <link>
+git branch - M main
+git checkout main
+
+cd /
+ls
+cd ~
+ls
+cd link do prj no explorador de arqu
+ivo
+git checkout -b main
+git status
+cd Prj_Teste/
+git ststus on branch main
+git add .
+git commit -m "criado txt"
+git push origin main
+
+git pull origin main
+git fetch origin // reconhecer se houve alguma mudança
+git checkout -b develop
+git push origin develop 
+git checkout main
+git checkout develop
+git checkout -b novo_txt
+git status
+git add --all
+git status
+git commit -m "criado segundo txt"
+git push origin novo_txt
+
+git checkout develop
+git checkout -b terceiro_txt
+git status 
+git add --all
+git status 
+git commit -m "criado terceiro txt"
+git push origin terceiro_txt
+
+verificar compare e base
+pull request
+cretate pull request
+merge pull request
+confirm
+
+git checkout develop 
+git fetch -p
+git pull origin develop
+
+git ckeckout -b nova_tarefa
+
+
+
+
+main // versão estável
+push // manda
+pull // pega
+manter uma barnch até 1 mês
